@@ -21,10 +21,16 @@
     </view>
 
     <view class="xian"></view>
+    <view class="fenlei">
+      <view class="fenlei-l">作者排行</view>
+      <view class="fenlei-r">查看全部></view>
+    </view>
+
+
     <view class="tupian">
       <swiper display-multiple-items="{{ length }}">
         <block wx:for="{{ list }}" wx:key="index">
-          <swiper-item>
+          <swiper-item class="swiper-s">
             <navigator class="nann">
               <image class="pick" src="{{ item.touxiang }}"></image>
               <view>{{ item.type }}</view>
@@ -33,93 +39,86 @@
         </block>
       </swiper>
     </view>
-    <!-- <view class="fenlei">
-      <view class="fenlei-l">作者排行</view>
-      <view class="fenlei-r">查看全部></view>
-    </view>
-    <view class="tupian">
-      <image src="../img/005.jpg"></image>
-      <image src="../img/006.jpg" class="tzuo"></image>
-      <image src="../img/007.jpg" class="tzuo"></image>
-      <image src="../img/008.jpg" class="tzuo"></image>
-      <view class="wenzi">
-        <view class="tpdz">刘慈欣</view>
-        <view class="tpdz zleftt">田小花</view>
-        <view class="tpdz zleftt">马尔克斯</view>
-        <view class="tpdz zleftt">余秋雨</view>
-      </view>
-    </view> -->
-    <view class="xian"></view>
 
+
+    <view class="xian"></view>
     <view class="fenlei">
       <view class="fenlei-l">新发布</view>
       <view class="fenlei-r">查看全部></view>
     </view>
 
-    <!-- <view class="book">
+    <view class="book">
       <image src="../img/011.jpg"></image>
       <image src="../img/009.jpg" class="bookle"></image>
       <image src="../img/010.jpg" class="bookle"></image>
-    </view> -->
+    </view>
 
 
-    <!-- <view class="bookzi">
+    <view class="bookzi">
       <view class="bookdz">三体:死神永生</view>
       <view class="bookdz boxz">人类简史</view>
       <view class="bookdz boxz">卖血记</view>
-    </view> -->
+    </view>
 
 
-    <!-- <view class="book">
+    <view class="book">
       <image src="../img/012.jpg"></image>
       <image src="../img/013.jpg" class="bookle"></image>
       <image src="../img/014.jpg" class="bookle"></image>
-    </view> -->
-    <!-- <view class="bookzi">
+    </view>
+    <view class="bookzi">
       <view class="bookdz">未来简史</view>
       <view class="bookdz boxz">自私基因</view>
       <view class="bookdz boxz">百年孤独</view>
-    </view> -->
+    </view>
 
-    <!-- <view class="remensousuo">热门搜索</view> -->
+    <view class="remensousuo">热门搜索</view>
 
-    <!-- <view class="yuanjiao">
-      <view class="phb28">2018排行榜</view>
-      <view class="phb281">职场热门</view>
-      <view class="phb282">都市言情</view>
-      <view class="phb283">哈佛大学经济管理类</view>
-      <view class="phb284">领导才能</view>
-    </view> -->
+    <view class="yuanjiao">
+      <navigator>
+        <view class="phb28">2018排行榜</view>
+      </navigator>
+      <navigator>
+        <view class="phb281">职场热门</view>
+      </navigator>
+      <navigator>
+        <view class="phb282">都市言情</view>
+      </navigator>
+      <navigator>
+        <view class="phb283">哈佛大学经济管理类</view>
+      </navigator>
+      <navigator>
+        <view class="phb284">领导才能</view>
+      </navigator>
+    </view>
 
-    <!-- <view class="fenlei">
+    <view class="fenlei">
       <view class="fenlei-l">热销榜</view>
       <view class="fenlei-r">查看全部></view>
-    </view> -->
-
-    <!-- <view class="rxb">
-      <image src="../img/011.jpg"></image>
-
-      <view class="rxbr">
-        <view class="rxbra">三体：死神永生</view>
-        <view class="rxbrb">作者：刘慈欣</view>
-        <view class="rxbrc"></view>
-        <view class="rxbrd">刘慈欣创作的长篇小说前往地球的三部曲作品 </view>
-      </view>
-    </view> -->
+    </view>
 
 
 
+    <view class="rxb">
 
-
+      <swiper>
+        <block>
+          <swiper-item>
+            <image src="/pages/img/012.jpg"></image>
+            <view class="rxbr">
+              <view class="rxbra">{{item.nname}}</view>
+              <view class="rxbrb">作者：黎明</view>
+              <view class="rxbrc"></view>
+              <view class="rxbrd">捉着黎明UI安德瓦还哦嗯多次二季度</view>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
 
 
 
 
 
   </view>
-
-  <view class="foot">
-    <icon class="iconfont icon-xingqiu"></icon>
-  </view>
-
 </view>

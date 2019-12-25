@@ -1,0 +1,43 @@
+/* pages/reading/reading.wxss */
+.head{
+  padding-top: 30rpx;
+  width: 660rpx;
+  height: 60rpx;
+  /* background-color: pink; */
+  margin: 0 auto;
+}
+.head-a{
+  color: white;
+  float: left;
+  
+}
+.head-b{
+  color: rgba(255, 255, 255, 0.363);
+  font-size: 35rpx;
+  float: right;
+  
+}
+.book{
+  width: 660rpx;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 40rpx;
+  
+}
+.pink{
+  width: 210rpx;
+  height: 370rpx;
+
+}
+.tupian{
+  margin: 0 auto;
+}
+.size{
+  font-size: 35rpx;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.473);
+}
+
+
+
+

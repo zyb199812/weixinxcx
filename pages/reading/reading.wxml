@@ -1,0 +1,64 @@
+<!--pages/reading/reading.wxml-->
+<view>
+
+<view class="head">
+<view  class="head-a">正在阅读</view>
+<view  class="head-b">查看全部></view>
+</view>
+<view class="book">
+  <view class="tupian" wx:for="{{ list }}" wx:key="index" >
+    <image src="{{ item.touxiang }}" class="pink"></image>
+    <view class="size">{{ item.bookname }}</view>
+  </view>
+</view>
+
+
+
+<view class="head">
+<view  class="head-a">正在阅读</view>
+<view  class="head-b">查看全部></view>
+</view>
+<view class="book">
+  <view class="tupian" wx:for="{{ list }}" wx:key="index" >
+    <image src="{{ item.touxiang }}" class="pink"></image>
+    <view class="size">{{ item.bookname }}</view>
+  </view>
+</view>
+
+
+
+
+<view class="head">
+<view  class="head-a">正在阅读</view>
+<view  class="head-b">查看全部></view>
+</view>
+<view class="book">
+  <view class="tupian" wx:for="{{ list }}" wx:key="index" >
+    <image src="{{ item.touxiang }}" class="pink"></image>
+    <view class="size">{{ item.bookname }}</view>
+  </view>
+</view>
+
+
+
+
+<view class="head">
+<view  class="head-a">正在阅读</view>
+<view  class="head-b">查看全部></view>
+</view>
+<view class="book">
+  <view class="tupian" wx:for="{{ list }}" wx:key="index" >
+    <image src="{{ item.touxiang }}" class="pink"></image>
+    <view class="size">{{ item.bookname }}</view>
+  </view>
+</view>
+
+
+</view>
+
+
+
+
+
+
+

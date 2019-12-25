@@ -1,0 +1,48 @@
+<!--pages/exploration/exploration.wxml-->
+<view class="box">
+  <view class="select">搜索</view>
+  <view class="threest">
+    <navigator class="threest">
+      <image src="/pages/img/threeti.jpg"></image>
+    </navigator>
+  </view>
+
+  <view class="santisis">三体：死神永生</view>
+  <view class="santisisname">刘慈心</view>
+  <view class="xian"></view>
+
+  <view class="ft">
+    <navigator class="ft-o">
+      <image src="/pages/img/ft1.jpg"></image>
+    </navigator>
+    <navigator class="ft-o">
+      <image src="/pages/img/ft2.jpg"></image>
+    </navigator>
+    <navigator class="ft-o">
+      <image src="/pages/img/ft3.jpg"></image>
+    </navigator>
+    <navigator class="ft-o">
+      <image src="/pages/img/ft4.jpg"></image>
+    </navigator>
+  </view>
+  <view class="read">
+    457 人已阅读
+  </view>
+
+  <view class="t500">
+    <image src="/pages/img/tbt.jpg"></image>
+  </view>
+
+  <view class="guding">
+    <view class="guding-a">
+      <image src="/pages/img/007.jpg"></image>
+    </view>
+    <view class="guding-b">
+      <view class="guding-ba">陈小东</view>
+      <view class="guding-bb">推荐</view>
+    </view>
+
+  </view>
+
+
+</view>

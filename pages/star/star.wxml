@@ -1,0 +1,41 @@
+<!--pages/star/star.wxml-->
+<view>
+  <view class="explore1">探索</view>
+
+  <view class="explore">
+    <view class="content" wx:for="{{ list }}" wx:key="index">
+      <image class="pick" src="{{ item.touxiang }}"></image>
+      <view class="size">{{ item.bookname }}</view>
+    </view>
+  </view>
+
+  <view class="tbt">
+    <image src="/pages/img/tbt.jpg"></image>
+  </view>
+
+  
+
+  <!-- <view class="picture">
+    <view class="picture-a">
+      <image src="/pages/img/threeti.jpg"></image>
+      <view>三体死神永生</view>
+    </view>
+    <view class="picture-a male">
+      <image src="/pages/img/014.jpg"></image>
+      <view>百年孤独</view>
+    </view>
+    <view class="picture-a matop">
+      <image src="/pages/img/threeti.jpg"></image>
+      <view>三体死神永生</view>
+    </view>
+    <view class="picture-a male matop">
+      <image src="/pages/img/012.jpg"></image>
+      <view>未来简史</view>
+    </view> -->
+
+
+</view>
+
+
+
+

@@ -1,0 +1,120 @@
+/* pages/exploration/exploration.wxss */
+
+.select {
+  width: 100%;
+  height: 50rpx;
+  /* background-color: pink; */
+  text-align: center;
+  color: white;
+}
+
+.threest {
+  padding-top: 60rpx;
+  /* margin-top: 30rpx; */
+  width: 300rpx;
+  height: 480rpx;
+  margin: 0 auto;
+}
+
+.threest image {
+  border-radius: 30rpx;
+  width: 100%;
+  height: 100%;
+}
+
+.santisis {
+  font-weight: bolder;
+  color: white;
+  margin-top: 90rpx;
+  text-align: center;
+}
+
+.santisisname {
+  color: rgba(255, 255, 255, 0.349);
+  margin-top: 30rpx;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+
+.xian {
+  width: 500rpx;
+  height: 1rpx;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.336);
+}
+
+.ft {
+  text-align: center;
+  width: 500rpx;
+  height: 130rpx;
+  margin: 0 auto;
+  /* background-color: pink; */
+}
+.ft image{
+  border-radius: 20rpx;
+  margin-top: 30rpx;
+  margin-left: 5rpx;
+  width: 110rpx;
+  height: 90rpx;
+}
+.ft-o{
+  display: inline-block;
+
+}
+.read{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.479);
+  margin-top: 20rpx;
+}
+.t500{
+  width: 200rpx;
+  height: 110rpx;
+  margin: 0 auto;
+}
+.t500 image{
+  width: 100%;
+  height: 100%;
+}
+.guding{
+  border-top-left-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+  position: fixed;
+  right: 0px;
+  bottom: 20rpx;
+  width: 230rpx;
+  height: 90rpx;
+  background-color: black;
+}
+.guding-a{
+  float: left;
+  width: 65rpx;
+  height: 49rpx;
+  line-height: 60rpx;
+
+}
+.guding-a image{
+  margin-top: 23rpx;
+  margin-left: 10rpx;
+  border-radius: 35%;
+  width: 100%;
+  height: 100%;
+}
+.guding-b{
+  margin-top: 15rpx;
+  float: right;
+  width: 110rpx;
+  height: 60rpx;
+  /* background-color: pink; */
+}
+
+.guding-ba{
+  font-size: 25rpx;
+  color: white;
+}
+.guding-bb{
+  color: rgba(255, 255, 255, 0.322);
+  font-size: 20rpx;
+}
+
+
+

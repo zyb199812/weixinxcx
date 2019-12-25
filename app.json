@@ -1,6 +1,10 @@
 {
   "pages": [
+
+    "pages/reading/reading",
+    "pages/star/star",
     "pages/index/index",
+    "pages/exploration/exploration",
     "pages/logs/logs"
   ],
   "window": {
@@ -8,6 +12,31 @@
     "navigationBarBackgroundColor": "#21272e",
     "navigationBarTitleText": "",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "2a313a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/pages/img/房屋信息.png",
+        "selectedIconPath": "/pages/img/房屋信息b.png"
+      },
+      {
+        "pagePath": "pages/star/star",
+        "iconPath": "/pages/img/星球.png",
+        "selectedIconPath": "/pages/img/星球b.png"
+      },
+      {
+        "pagePath": "pages/reading/reading",
+        "iconPath": "/pages/img/书.png",
+        "selectedIconPath": "/pages/img/书b.png"
+      },
+      {
+        "pagePath": "pages/exploration/exploration",
+        "iconPath": "/pages/img/我的.png",
+        "selectedIconPath": "/pages/img/我的b.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

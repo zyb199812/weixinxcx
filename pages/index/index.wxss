@@ -1,11 +1,15 @@
-.container{
+.container {
   background-color: rgb(33, 39, 46);
   width: 100%;
   height: 100%;
 }
-.select-a{
+
+page {
+  height: 100%;
+}
+
+.select-a {
   margin-top: 10rpx;
-  /* padding-top: 10rpx; */
   border-radius: 40rpx;
   font-size: 35rpx;
   width: 600rpx;
@@ -13,74 +17,76 @@
   background-color: rgb(45, 53, 61);
   margin: 0 auto;
 }
-.box{
+
+.box {
   width: 100%;
   height: 100%;
+  /* height:11111rpx; */
   margin: 0 auto;
   background-color: rgb(33, 39, 46);
 }
 
-.fenlei{
-  width: 100%;
-  /* padding-top: 50rpx;
-  margin-top: 30rpx;
+.fenlei {
   width: 620rpx;
-  height: 100rpx;
-  margin: 0 auto; */
+  height: 120rpx;
+  margin-top: 40rpx;
 }
-.fenlei-l{
-  /* padding-left: 20rpx; */
-  /* padding-top: 50rpx; */
+
+.fenlei-l {
   line-height: 100rpx;
   float: left;
   font-size: 35rpx;
   color: rgb(255, 255, 255);
+  margin-left: 60rpx;
 }
-.fenlei-r{
+
+.fenlei-r {
   float: right;
   font-size: 25rpx;
   line-height: 100rpx;
   color: gray;
-  /* padding-top: 50rpx; */
+  margin-right: -50rpx;
+}
 
+.tupian {
+  width: 100%;
 }
-.tupian{
-  width:100%;
-  /* width: 620rpx;
-  height: 160rpx;
-  margin: 0 auto;
-  padding-top: 15rpx;
-  padding-bottom: 30rpx; */
-  /* background-color: pink; */
-}
-.tupian image{
+
+.tupian image {
   border-radius: 20rpx;
   width: 110rpx;
   height: 110rpx;
 }
-.tzuo{
+
+.tzuo {
   margin-left: 61rpx;
 }
-.tpdz{
+
+.tpdz {
   color: rgb(255, 255, 255);
   display: inline-block;
   text-align: center;
   font-size: 30rpx;
 }
-.zleft{
+
+.zleft {
   margin-left: 120rpx;
 }
-.zleftt{
+
+.zleftt {
   margin-left: 80rpx;
 }
-.xian{
+
+.xian {
+  /* position: relative; *//* display: block; */
   margin-top: 20rpx;
   margin: 0 auto;
   width: 620rpx;
   height: 1rpx;
   background-color: rgba(255, 255, 255, 0.185);
 }
-.wenzi{
+
+.wenzi {
   /* padding-left: 50rpx; */
   width: 620rpx;
   height: 50rpx;
@@ -88,29 +94,31 @@
   /* background-color: pink; */
   text-align: center;
 }
-.book{
+
+.book {
   width: 620rpx;
   height: 380rpx;
   /* background-color: pink; */
   margin: 0 auto;
 }
 
-.book image{
-  
+.book image {
   width: 188rpx;
   height: 330rpx;
 }
 
-.bookle{
+.bookle {
   margin-left: 30rpx;
 }
-.bookzi{
+
+.bookzi {
   width: 620rpx;
   height: 80rpx;
   margin: 0 auto;
   /* background-color: red; */
 }
-.bookdz{
+
+.bookdz {
   display: inline-block;
   text-align: center;
   /* margin-left: 90rpx; */
@@ -118,10 +126,12 @@
   color: rgb(255, 255, 255);
   /* font-size: 35rpx; */
 }
-.boxz{
+
+.boxz {
   margin-left: 85rpx;
 }
-.foot{
+
+.foot {
   position: fixed;
   bottom: 0rpx;
   width: 100%;
@@ -130,11 +140,12 @@
   margin: 0 auto;
 }
 
-.remensousuo{
+.remensousuo {
   margin-left: 65rpx;
   color: rgb(255, 255, 255);
 }
-.phb28{
+
+.phb28 {
   display: inline-block;
   /* margin-left: 65rpx; */
   margin-top: 30rpx;
@@ -147,7 +158,8 @@
   font-size: 30rpx;
   color: rgb(139, 58, 88);
 }
-.phb281{
+
+.phb281 {
   margin-left: 20rpx;
   display: inline-block;
   margin-top: 30rpx;
@@ -159,9 +171,9 @@
   line-height: 80rpx;
   font-size: 30rpx;
   color: rgb(60, 107, 86);
-
 }
-.phb282{
+
+.phb282 {
   margin-left: 20rpx;
   display: inline-block;
   margin-top: 30rpx;
@@ -173,9 +185,9 @@
   line-height: 80rpx;
   font-size: 30rpx;
   color: rgb(139, 58, 88);
-
 }
-.phb284{
+
+.phb284 {
   margin-left: 20rpx;
   display: inline-block;
   margin-top: 30rpx;
@@ -187,9 +199,9 @@
   line-height: 80rpx;
   font-size: 30rpx;
   color: rgb(222, 214, 88);
-
 }
-.phb283{
+
+.phb283 {
   /* margin-left: 20rpx; */
   display: inline-block;
   margin-top: 30rpx;
@@ -201,26 +213,26 @@
   line-height: 80rpx;
   font-size: 30rpx;
   color: rgb(41, 94, 277);
-
 }
 
-.yuanjiao{
+.yuanjiao {
   width: 620rpx;
   height: 200rpx;
   margin: 0 auto;
 }
-.rxb{
-    border-radius: 20rpx;
 
+.rxb {
+  border-radius: 20rpx;
   position: relative;
   width: 620rpx;
   height: 250rpx;
-  background-color:rgb(45, 53, 61);
+  background-color: rgb(45, 53, 61);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 160rpx;
+  margin-top: 110rpx;
 }
-.rxb image{
+
+.rxb image {
   position: absolute;
   left: 50rpx;
   top: -125rpx;
@@ -229,38 +241,46 @@
   border-radius: 10px;
 }
 
-.rxbr{
+.rxbr {
   width: 350rpx;
   height: 200rpx;
   float: right;
   /* background-color: pink; */
 }
 
-.rxbrb{
+.rxbrb {
+  padding-top: 15rpx;
   font-size: 30rpx;
   color: gray;
   padding-bottom: 20rpx;
 }
-.rxbrc{
 
-  width: 300rpx;
+.rxbrc {
+  width: 340rpx;
   height: 1rpx;
   background-color: white;
   margin: 0 auto;
 }
-.rxbrd{
-  padding-top: 10rpx;
+
+.rxbrd {
+  padding-top: 35rpx;
   font-size: 30rpx;
   color: gray;
 }
 
-.navigator{
+.navigator {
   margin-left: 40rpx;
 }
-.swiper{
-  height: 210rpx;
+
+swiper {
+  height: 230rpx;
 }
-.nann{
+
+.nann {
   margin-top: 30rpx;
-  margin-left: 30rpx;
+  margin-left: 40rpx;
+}
+
+.yuanjiao navigator {
+  display: inline-block;
 }
