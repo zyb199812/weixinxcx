@@ -1,0 +1,94 @@
+<!--pages/santidetails/santidetails.wxml-->
+<view>
+
+  <view class="head">
+    <view class="santi">
+      <image src="../img/threeti.jpg"></image>
+    </view>
+    <view class="santizi">
+      <view class="santizi-a">三体：死神永生</view>
+      <view class="santizi-b">作者：刘慈欣</view>
+      <view class="santizi-c">刘慈欣创作的系列长篇科幻小说地球三部曲的第三部</view>
+      <view class="santizi-d">
+        <view class="santizi-da">
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+        </view>
+        <view class="santizi-db">5.0</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="xian"></view>
+
+  <view class="collection">
+    <view class="collection-a">
+      <view style="display: inline-block; color:red;">❤</view> 收藏</view>
+    <view class="collection-b">
+      <image src="../img/分享.png"></image>
+      <view class="collection-ba">分享</view>
+    </view>
+    <view class="collection-c">
+      <!-- <image src="../img/书3.png"></image> -->
+      <image src="../img/书3.png"></image>
+      <view class="collection-ba">放入书架</view>
+    </view>
+  </view>
+
+  <view class="xian"></view>
+
+  <view class="details">
+    <view class="details-a">详情</view>
+    <view class="details-b">君子曰：学不可以已。青，取之于蓝，而青于蓝；冰，水为之，而寒于水。木直中绳，輮以为轮，其曲中规。虽有槁暴，不复挺者，輮使之然也。故木受绳则直，金就砺则利，君子博学而日参省乎己，则知明而行无过矣。</view>
+  </view>
+
+  <view class="xian"></view>
+
+  <view class="catalog">
+    <view class="catalog-a">查看目录</view>
+    <view class="catalog-b">></view>
+  </view>
+
+  <view class="xian"></view>
+
+  <view class="catalog">
+    <view class="catalog-a">
+      <view class="catalog-aa">评论</view>
+      <view class="catalog-ab">215 条评论</view>
+    </view>
+    <view class="catalog-b">
+      <image src="../img/填写.png"></image>
+    </view>
+  </view>
+
+  <view class="pinglun">
+    <view class="pinglun-a">
+      <image src="../img/ft4.jpg"></image>
+    </view>
+    <view class="pinglun-b">
+      <view class="pinglun-ba">你个废物</view>
+      <view class="pinglun-bb">君子曰：学不可以已。青，取之于蓝，而青于蓝；冰，水为之，而寒于水。木直中绳，輮以为轮，其曲中规。虽有槁暴，不复挺者，輮使之然也。故木受绳则直，金就砺则利，君子博学而日参省乎己，则知明而行无过矣。</view>
+
+    </view>
+  </view>
+
+  <view class="sj">
+    <view class="sj-a">12-04 21:20</view>
+    <view class="sj-b">
+      <view class="sj-ba">❤ 134</view>
+      <view class="sj-bb">
+        <image src="../img/消息.png"></image>
+        89
+      </view>
+    </view>
+  </view>
+
+  <view class="foot">
+    <view class="foot-a">试看</view>
+    <view class="foot-b">购买</view>
+  </view>
+
+
+</view>

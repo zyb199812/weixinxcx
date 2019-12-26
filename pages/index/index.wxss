@@ -25,6 +25,10 @@ page {
   margin: 0 auto;
   background-color: rgb(33, 39, 46);
 }
+.zzname{
+  font-size: 30rpx;
+  color: rgba(255, 255, 255, 0.541);
+}
 
 .fenlei {
   width: 620rpx;

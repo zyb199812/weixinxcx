@@ -1,9 +1,14 @@
 {
   "pages": [
-
+    "pages/index/index",
+    "pages/author/author",
+    "pages/science/science",
+    "pages/santidetails/santidetails",
+    "pages/chongzhi/chongzhi",
+    "pages/ste/ste",
+    "pages/myde/myde",
     "pages/reading/reading",
     "pages/star/star",
-    "pages/index/index",
     "pages/exploration/exploration",
     "pages/logs/logs"
   ],
@@ -32,7 +37,7 @@
         "selectedIconPath": "/pages/img/书b.png"
       },
       {
-        "pagePath": "pages/exploration/exploration",
+        "pagePath": "pages/myde/myde",
         "iconPath": "/pages/img/我的.png",
         "selectedIconPath": "/pages/img/我的b.png"
       }

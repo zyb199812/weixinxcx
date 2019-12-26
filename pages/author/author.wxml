@@ -1,0 +1,124 @@
+<!--pages/author/author.wxml-->
+
+<view class="box">
+  <view class="headd">
+    作者
+  </view>
+
+  <view class="mydtuxiang">
+    <view class="my-a">
+      <image src="../img/ft6.jpg"></image>
+    </view>
+    <view class="my-b">
+      <view class="my-ba">田小花</view>
+      <view class="my-bb">中国·保康</view>
+    </view>
+
+
+    <view class="my-cc">
+      <view class="my-cac">
+        <image src="../img/分享.png"></image>
+      </view>
+      <view class="my-cbc">分享</view>
+    </view>
+
+
+    <view class="my-c">
+      <!-- <view class="my-ca">
+        <image src="../img/分享.png"></image>
+      </view> -->
+      <view class="my-cb">+关注</view>
+    </view>
+  </view>
+
+  <view class="follow">
+    <view class="follow-a">
+      <view class="follow-aa">1286</view>
+      <view class="follow-ab">关注</view>
+    </view>
+    <view class="xian"></view>
+    <view class="follow-a">
+      <view class="follow-aa">1986</view>
+      <view class="follow-ab">粉丝</view>
+    </view>
+    <view class="xian"></view>
+    <view class="follow-a">
+      <view class="follow-aa">6686</view>
+      <view class="follow-ab">喜欢</view>
+    </view>
+  </view>
+
+  <view class="daibiaozuo">
+    <view class="daibiaozuo-a">代表作</view>
+    <view class="daibiaozuo-b">总共 3 本书</view>
+  </view>
+
+
+
+  <view class="head">
+    <view class="santi">
+      <image src="../img/threeti.jpg"></image>
+    </view>
+    <view class="santizi">
+
+      <view class="santizi-d">
+        <view class="santizi-a">三体：死神永生</view>
+        <view class="santizi-da">
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+        </view>
+        <view class="santizi-db">5.0</view>
+      </view>
+      <view class="santizi-c">刘慈欣创作的系列长篇科幻小说地球三部曲的第三部</view>
+      <view class="santizi-b">366 人阅读</view>
+    </view>
+  </view>
+
+
+
+  <view class="head">
+    <view class="santi">
+      <image src="../img/017.jpg"></image>
+    </view>
+    <view class="santizi">
+
+      <view class="santizi-d">
+        <view class="santizi-a">神秘岛</view>
+        <view class="santizi-da">
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+        </view>
+        <view class="santizi-db">5.0</view>
+      </view>
+      <view class="santizi-c">小说地球三部曲的第三部</view>
+      <view class="santizi-b">160 人阅读</view>
+    </view>
+  </view>
+
+
+  <view class="head">
+    <view class="santi">
+      <image src="../img/010.jpg"></image>
+    </view>
+    <view class="santizi">
+
+      <view class="santizi-d">
+        <view class="santizi-a">卖血记</view>
+        <view class="santizi-da">
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+          <image src="../img/星.png"></image>
+        </view>
+        <view class="santizi-db">5.0</view>
+      </view>
+      <view class="santizi-c">讲述了旧社会的人们水深酷热的生活</view>
+      <view class="santizi-b">3661 人阅读</view>
+    </view>
+  </view>
+
+</view>

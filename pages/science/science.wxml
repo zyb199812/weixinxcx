@@ -1,0 +1,100 @@
+<!--pages/science/science.wxml-->
+<view>
+
+  <view class="head">
+    科幻
+  </view>
+
+  <view class="book">
+    <view class="book-a">
+      <image src="../img/threeti.jpg"></image>
+    </view>
+    <view class="book-b">
+      <view class="book-c">
+        <view class="book-ca">三体：死神永生</view>
+        <view class="book-cb">···</view>
+      </view>
+      <view class="book-d">作者：刘慈心</view>
+      <view class="book-e"></view>
+      <view class="book-f">刘慈心创作的系列长篇科幻小说地球往事的三部曲的第三部作品</view>
+    </view>
+  </view>
+
+
+  <view class="book">
+    <view class="book-a">
+      <image src="../img/012.jpg"></image>
+    </view>
+    <view class="book-b">
+      <view class="book-c">
+        <view class="book-ca">未来简史</view>
+        <view class="book-cb">···</view>
+      </view>
+      <view class="book-d">作者：尤瓦尔·赫拉利</view>
+      <view class="book-e"></view>
+      <view class="book-f">讲述了一段五十年前令人难以置信的故事</view>
+    </view>
+  </view>
+
+
+  <view class="book">
+    <view class="book-a">
+      <image src="../img/015.jpg"></image>
+    </view>
+    <view class="book-b">
+      <view class="book-c">
+        <view class="book-ca">银河帝国</view>
+        <view class="book-cb">···</view>
+      </view>
+      <view class="book-d">作者：艾萨克·阿西莫夫</view>
+      <view class="book-e"></view>
+      <view class="book-f">在机器人的帮助下，人类快速的掌握了外星技术，进而</view>
+    </view>
+  </view>
+
+
+
+  <view class="book">
+    <view class="book-a">
+      <image src="../img/016.jpg"></image>
+    </view>
+    <view class="book-b">
+      <view class="book-c">
+        <view class="book-ca">海底两万里</view>
+        <view class="book-cb">···</view>
+      </view>
+      <view class="book-d">作者：儒勒·凡尔纳</view>
+      <view class="book-e"></view>
+      <view class="book-f">讲述了一个博物家探索海底的秘密</view>
+    </view>
+  </view>
+
+
+
+  <view class="book">
+    <view class="book-a">
+      <image src="../img/017.jpg"></image>
+    </view>
+    <view class="book-b">
+      <view class="book-c">
+        <view class="book-ca">神秘岛</view>
+        <view class="book-cb">···</view>
+      </view>
+      <view class="book-d">作者：保密</view>
+      <view class="book-e"></view>
+      <view class="book-f">主角意外的发现了一个人类未知的岛屿，进而开始探索</view>
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

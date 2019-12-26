@@ -1,0 +1,18 @@
+<!--pages/chongzhi/chongzhi.wxml-->
+<view class="zhanghuye">
+  账户余额
+</view>
+
+<view class="myye">
+  <view class="myyea">我的余额（元）</view>
+  <view class="myyeb">1375.00</view>
+</view>
+
+<view class="t500">
+<image src="../img/tbt.jpg"></image>
+</view>
+
+<view class="foot">
+充值
+</view>
+

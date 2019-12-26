@@ -11,9 +11,9 @@
       <swiper display-multiple-items="{{ length }}">
         <block wx:for="{{ list }}" wx:key="index">
           <swiper-item>
-            <navigator class="nann">
+            <navigator class="nann" bindtap="kehuan" url="">
               <image class="pick" src="{{ item.touxiang }}"></image>
-              <view>{{ item.type }}</view>
+              <view class="zzname">{{ item.type }}</view>
             </navigator>
           </swiper-item>
         </block>
@@ -22,18 +22,18 @@
 
     <view class="xian"></view>
     <view class="fenlei">
-      <view class="fenlei-l">作者排行</view>
+      <view class="fenlei-l" bindtap="zuozhee">作者排行</view>
       <view class="fenlei-r">查看全部></view>
     </view>
 
 
     <view class="tupian">
       <swiper display-multiple-items="{{ length }}">
-        <block wx:for="{{ list }}" wx:key="index">
+        <block wx:for="{{ redd }}" wx:key="index">
           <swiper-item class="swiper-s">
             <navigator class="nann">
               <image class="pick" src="{{ item.touxiang }}"></image>
-              <view>{{ item.type }}</view>
+              <view class="zzname">{{ item.name }}</view>
             </navigator>
           </swiper-item>
         </block>
@@ -48,14 +48,14 @@
     </view>
 
     <view class="book">
-      <image src="../img/011.jpg"></image>
+      <image src="../img/011.jpg"  bindtap="santiss"></image>
       <image src="../img/009.jpg" class="bookle"></image>
       <image src="../img/010.jpg" class="bookle"></image>
     </view>
 
 
     <view class="bookzi">
-      <view class="bookdz">三体:死神永生</view>
+      <view class="bookdz" bindtap="santiss">三体:死神永生</view>
       <view class="bookdz boxz">人类简史</view>
       <view class="bookdz boxz">卖血记</view>
     </view>

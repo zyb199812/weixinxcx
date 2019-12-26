@@ -1,0 +1,78 @@
+/* pages/science/science.wxss */
+
+.head {
+  color: white;
+  text-align: center;
+}
+
+.book {
+  position: relative;
+  border-radius: 20rpx;
+  width: 660rpx;
+  height: 300rpx;
+  margin: 100rpx auto;
+  background-color: #2b323b;
+}
+
+.book-a {
+  position: absolute;
+  left: 35rpx;
+  top: -70rpx;
+  width: 210rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+}
+
+.book-a image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+
+.book-b {
+  border-radius: 20rpx;
+  float: right;
+  width: 400rpx;
+  height: 300rpx;
+  /* background-color: red; */
+}
+
+.book-c {
+  border-top-right-radius: 20rpx;
+  width: 400rpx;
+  height: 100rpx;
+  /* background-color: red; */
+}
+
+.book-ca {
+  line-height: 100rpx;
+  float: left;
+  font-size: 40rpx;
+  color: white;
+}
+
+.book-cb {
+  line-height: 100rpx;
+  margin-right: 20rpx;
+  float: right;
+  color: white;
+}
+
+.book-d {
+  font-size: 35rpx;
+  color: gray;
+}
+
+.book-e {
+  margin-right: 20rpx;
+  width: 400rpx;
+  height: 3rpx;
+  margin: 25rpx auto;
+  background-color: rgba(128, 128, 128, 0.652);
+}
+
+.book-f {
+  font-size: 30rpx;
+  margin-right: 20rpx;
+  color: gray;
+}

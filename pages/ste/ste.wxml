@@ -1,0 +1,61 @@
+<!--pages/ste/ste.wxml-->
+<view>
+  <view class="set">
+    <view class="set-l">←</view>
+    设置
+  </view>
+
+  <view class="personal">
+    <view class="personal-a">查看账户</view>
+    <view class="personal-b">></view>
+  </view>
+  <view class="parting-line"></view>
+
+  <view class="personal">
+    <view class="personal-a">个人资料</view>
+    <view class="personal-b">></view>
+  </view>
+  <view class="parting-line"></view>
+
+
+  <view class="personal">
+    <view class="personal-a">消息提醒</view>
+    <view class="personal-b">
+      <switch checked="{{switch1Checked}}" bindchange="switch1Change" />
+    </view>
+  </view>
+  <view class="parting-line"></view>
+
+
+
+  <view class="personal">
+    <view class="personal-a">清理缓存</view>
+    <view class="personal-b">
+      <view class="mb128">128MB</view> ></view>
+  </view>
+  <view class="parting-line"></view>
+
+
+  <view class="personal">
+    <view class="personal-a">帮助中心</view>
+    <view class="personal-b">></view>
+  </view>
+  <view class="parting-line"></view>
+
+
+  <view class="personal">
+    <view class="personal-a">关于我们</view>
+    <view class="personal-b">></view>
+  </view>
+  <view class="parting-line"></view>
+
+
+  <view class="t500">
+    <image src="../img/tbt.jpg"></image>
+  </view>
+
+
+  <view class="foot">
+    退出登录
+  </view>
+</view>

@@ -1,0 +1,79 @@
+<!--pages/myde/myde.wxml-->
+
+<view class="myde">
+  我的
+  <view class="chilun"> <navigator class="chilun-a" bindtap="shezhi"><image src="../img/齿轮.png"></image></navigator> </view>
+</view>
+
+<view class="mydtuxiang">
+  <view class="my-a">
+    <image src="../img/ft5.jpg"></image>
+  </view>
+  <view class="my-b">
+    <view class="my-ba">李雪玲</view>
+    <view class="my-bb">中国·襄阳</view>
+  </view>
+  <view class="my-c">
+    <view class="my-ca">
+      <image src="../img/分享.png"></image>
+    </view>
+    <view class="my-cb">分享</view>
+  </view>
+</view>
+
+<view class="follow">
+  <view class="follow-a">
+    <view class="follow-aa">1286</view>
+    <view class="follow-ab">关注</view>
+  </view>
+  <view class="xian"></view>
+  <view class="follow-a">
+    <view class="follow-aa">1286</view>
+    <view class="follow-ab">关注</view>
+  </view>
+  <view class="xian"></view>
+  <view class="follow-a">
+    <view class="follow-aa">1286</view>
+    <view class="follow-ab">关注</view>
+  </view>
+</view>
+
+
+<view class="personal">
+  <view class="personal-a">个人信息</view>
+  <view class="personal-b">></view>
+</view>
+<view class="parting-line"></view>
+
+
+<view class="personal">
+  <view class="personal-a">我的消息</view>
+  <view class="personal-bb">6</view>
+</view>
+<view class="parting-line"></view>
+
+
+<view class="personal">
+  <view class="personal-a">账户余额</view>
+  <view class="personal-b">
+    <view class="moneyye" bindtap="chongzhi">3.12</view>
+    ></view>
+</view>
+<view class="parting-line"></view>
+
+
+<view class="personal">
+  <view class="personal-a">我的评论</view>
+  <view class="personal-b">></view>
+</view>
+<view class="parting-line"></view>
+
+<view class="t500">
+<image src="../img/tbt.jpg"></image>
+</view>
+
+
+
+
+
+

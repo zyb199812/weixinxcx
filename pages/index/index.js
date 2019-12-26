@@ -5,6 +5,7 @@ const app = getApp()
 Page({
   data: {
     list: [{}],
+    redd:[{}],
     length: 4,
 
     stss: [{
@@ -34,5 +35,37 @@ Page({
         })
       }
     })
+
+    wx: wx.request({
+      url: 'https://wujunhui.xyz/getwriters',
+      success: (res) => {
+        this.setData({
+          redd: res.data
+        })
+      }
+    })
   },
+  santiss:function(eve){
+    wx.navigateTo({
+      url: '../santidetails/santidetails',
+    })
+  },
+  kehuan:function(eve){
+    wx:wx.navigateTo({
+      url: '../science/science',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+  zuozhee: function (eve) {
+    wx: wx.navigateTo({
+      url: '../author/author',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  }
+
+
 })
