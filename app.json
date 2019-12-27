@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/hgauthor/hgauthor",
+    "pages/comment/comment",
     "pages/author/author",
     "pages/science/science",
     "pages/santidetails/santidetails",

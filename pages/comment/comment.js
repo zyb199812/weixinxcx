@@ -1,4 +1,4 @@
-// pages/chongzhi/chongzhi.js
+// pages/comment/comment.js
 Page({
 
   /**
@@ -7,18 +7,7 @@ Page({
   data: {
 
   },
-  chongzhi:function(eve){
-    // wx.requestMidasPayment
-    wx.requestPayment({
-      timeStamp: '',
-      nonceStr: '',
-      package: '',
-      signType: 'MD5',
-      paySign: '',
-      success(res){},
-      fail(res){}
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

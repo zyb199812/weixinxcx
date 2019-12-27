@@ -6,14 +6,14 @@
 </view>
 
 <view class="mydtuxiang">
-  <view class="my-a">
-    <image src="../img/ft5.jpg"></image>
+  <view class="my-a" bindtap="huantuxiang">
+    <image src="{{ src }}"></image>
   </view>
   <view class="my-b">
     <view class="my-ba">李雪玲</view>
     <view class="my-bb">中国·襄阳</view>
   </view>
-  <view class="my-c">
+  <view class="my-c" bindtap="fenxiang">
     <view class="my-ca">
       <image src="../img/分享.png"></image>
     </view>

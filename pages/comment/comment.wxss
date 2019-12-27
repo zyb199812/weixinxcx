@@ -1,0 +1,90 @@
+/* pages/comment/comment.wxss */
+.plhead{
+  text-align: center;
+  color: white;
+}
+
+.pinglun {
+  display: flex;
+  justify-content: space-between;
+  width: 660rpx;
+  height: 500rpx;
+  margin: 70rpx auto;
+}
+
+.pinglun-a image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.pinglun-b {
+  width: 500rpx;
+  height: 500rpx;
+}
+
+.pinglun-ba {
+  /* float: left; */
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.pinglun-bb {
+  margin-top: 20rpx;
+  color: gray;
+}
+
+
+.sj {
+  display: flex;
+  justify-content: space-between;
+  width: 660rpx;
+  height: 50rpx;
+  margin: 0 auto;
+  /* background-color: pink; */
+}
+
+.sj-bb image {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.sj-ba {
+  font-size: 30rpx;
+  color: rgba(128, 128, 128, 0.61);
+  display: inline-block;
+}
+
+.sj-bb {
+  font-size: 30rpx;
+  color: gray;
+  margin-left: 20rpx;
+  display: inline-block;
+}
+
+.sj-a {
+  color: gray;
+  font-size: 30rpx;
+  line-height: 50rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

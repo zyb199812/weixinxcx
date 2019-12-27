@@ -1,0 +1,103 @@
+<!--pages/hgauthor/hgauthor.wxml-->
+
+<view>
+
+  <view class="hg02">
+    <image src="../img/hg02.jpg"></image>
+  </view>
+
+
+  <view class="remen">
+    <view class="remen-a">热门作者</view>
+    <view class="remen-b">查看全部></view>
+  </view>
+
+
+  <!-- <view class="boox">
+      <swiper display-multiple-items="{{ length }}" class="qwe">
+        <block wx:for="{{ list }}" wx:key='index'>
+          <swiper-item>
+            <view class=" boox-a ">
+              <image src="{{ item.touxiang }}"></image>
+            </view>
+            <view class="boox-b">{{ item.type }}</view>
+            <view class="boox-c">关注</view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view> -->
+
+  <view class="boox">
+    <swiper display-multiple-items="{{ length }}" class="qwe">
+      <block wx:for="{{ list }}" wx:key='index'>
+        <swiper-item>
+          <view class=" boox-a ">
+            <image src="{{ item.touxiang }}"></image>
+          </view>
+          <view class="boox-b">{{ item.type }}</view>
+          <view class="boox-c">关注</view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+
+  <view class="xian"></view>
+
+
+  <view class="remen">
+    <view class="remen-a">新晋作者</view>
+    <view class="remen-b">查看全部></view>
+  </view>
+
+
+  <view class="boox">
+    <swiper display-multiple-items="{{ length }}" class="qwe">
+      <block wx:for="{{ list }}" wx:key='index'>
+        <swiper-item>
+          <view class=" boox-a ">
+            <image src="{{ item.touxiang }}"></image>
+          </view>
+          <view class="boox-b">{{ item.type }}</view>
+          <view class="boox-c">关注</view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+
+  <view class="xian"></view>
+
+  <!-- <view wx:for="{{ dan }}" wx:key="index" class="qaz">
+    <view class="booox">
+      <view class=" booox-a ">
+        <image src="{{item.tupian}}"></image>
+      </view>
+      <view class="booox-c">{{item.name}}</view>
+    </view>
+  </view> -->
+
+  <view class="remen">
+    <view class="remen-a">其他作者</view>
+    <view class="remen-b">查看全部></view>
+  </view>
+
+
+  <view class="boox">
+    <swiper display-multiple-items="{{ length }}" class="qwe">
+      <block wx:for="{{ list }}" wx:key='index'>
+        <swiper-item>
+          <view class=" boox-a ">
+            <image src="{{ item.touxiang }}"></image>
+          </view>
+          <view class="boox-b">{{ item.type }}</view>
+          <view class="boox-c">关注</view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+
+
+
+</view>

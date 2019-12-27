@@ -11,7 +11,7 @@
       <swiper display-multiple-items="{{ length }}">
         <block wx:for="{{ list }}" wx:key="index">
           <swiper-item>
-            <navigator class="nann" bindtap="kehuan" url="">
+            <navigator url="{{ lujing[index] }}" class="nann" bindtap="kehuan">
               <image class="pick" src="{{ item.touxiang }}"></image>
               <view class="zzname">{{ item.type }}</view>
             </navigator>
@@ -23,7 +23,7 @@
     <view class="xian"></view>
     <view class="fenlei">
       <view class="fenlei-l" bindtap="zuozhee">作者排行</view>
-      <view class="fenlei-r">查看全部></view>
+      <view class="fenlei-r" bindtap="ckqb">查看全部></view>
     </view>
 
 

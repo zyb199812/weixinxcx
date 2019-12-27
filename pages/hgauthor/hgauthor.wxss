@@ -1,0 +1,97 @@
+/* pages/hgauthor/hgauthor.wxss */
+
+.hg02{
+  width: 660rpx;
+  height: 400rpx;
+  margin: 0 auto;
+}
+.hg02 image{
+  width: 100%;
+  height: 100%;
+
+}
+
+.boox{
+  width: 100%;
+  /* height: 200rpx;
+  margin: 0 auto;
+  background-color: pink; */
+}
+.boox-a{
+  width: 100rpx;
+  height: 100rpx;
+  /* background-color: red; */
+}
+.boox-a image{
+  margin-left: 20rpx;
+  /* margin: 0 auto; */
+  border-radius: 20rpx;
+  width: 100%;
+  height: 100%;
+}
+
+.boox-b{
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  text-align: center;
+
+}
+.boox-c{
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  width: 110rpx;
+  height: 40rpx;
+  color: white;
+  background-color: rgb(71, 140, 224);
+  /* border: 1px solid rgb(71, 140, 224); */
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.qwe{
+  height: 200rpx;
+}
+.remen{
+  line-height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  width: 660rpx;
+  height: 100rpx;
+  /* background-color: pink; */
+  margin: 20rpx auto;
+}
+.remen-a{
+  color: white;
+}
+.remen-b{
+  font-size: 30rpx;
+  color: gray;
+}
+
+.xian{
+  width: 660rpx;
+  height: 3rpx;
+  margin: 20rpx auto;
+  background-color: white;
+}
+/* .qaz{
+  display: inline-block;
+  width: 660rpx;
+  height: 130rpx;
+  display: flex;
+  justify-content: center;
+} */
+
+.booox-a{
+  width: 130rpx;
+  height: 100rpx;
+}
+.booox-a image{
+  width: 100%;
+  height: 100%;
+}
+/* .booox{
+  width: 660rpx;
+  display: flex;
+  justify-content: center;
+} */

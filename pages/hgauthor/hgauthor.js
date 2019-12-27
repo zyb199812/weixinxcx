@@ -1,30 +1,42 @@
-// pages/chongzhi/chongzhi.js
+// pages/hgauthor/hgauthor.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    ress: [],
+    length:5,
+    dan:[
+      { "tupian": "/pages/img/001.jpg", "name": "关注" },
+      { "tupian": "/pages/img/002.jpg", "name": "不关注" },
+      {"tupian":"/pages/img/003.jpg","name":"别关注"}
+    ]
   },
-  chongzhi:function(eve){
-    // wx.requestMidasPayment
-    wx.requestPayment({
-      timeStamp: '',
-      nonceStr: '',
-      package: '',
-      signType: 'MD5',
-      paySign: '',
-      success(res){},
-      fail(res){}
+  onLoad: function () {
+   wx.request({
+     url: 'https://wujunhui.xyz/getwriters',
+     success:(res) => {
+       this.setData({
+         list:res.data
+       })
+     }
+   })
+    // 动态获取内容
+     wx.request({
+      url: 'https://wujunhui.xyz/getwriters',
+      success: (res) => {
+        this.setData({
+          ress: res.data
+        })
+      }
     })
+    // console.log(this.data)
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
-  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

@@ -12,7 +12,7 @@
 <image src="../img/tbt.jpg"></image>
 </view>
 
-<view class="foot">
+<view class="foot" bindtap="chongzhi">
 充值
 </view>
 

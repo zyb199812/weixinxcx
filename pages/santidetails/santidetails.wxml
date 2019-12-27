@@ -24,16 +24,18 @@
   <view class="xian"></view>
 
   <view class="collection">
-    <view class="collection-a">
-      <view style="display: inline-block; color:red;">❤</view> 收藏</view>
-    <view class="collection-b">
+    <view class="collection-a {{ avorite ? '' : 'act' }} " bindtap="collect">
+      <view style="display: inline-block; ">❤</view> 收藏</view>
+    <view class="collection-b" bindtap="fenxiang">
       <image src="../img/分享.png"></image>
+      <!-- <button class="collection-ba" open-type="share">分享</button> -->
       <view class="collection-ba">分享</view>
     </view>
+
     <view class="collection-c">
       <!-- <image src="../img/书3.png"></image> -->
       <image src="../img/书3.png"></image>
-      <view class="collection-ba">放入书架</view>
+      <view class="collection-ba" bindtap="qwe">放入书架</view>
     </view>
   </view>
 
@@ -56,7 +58,7 @@
   <view class="catalog">
     <view class="catalog-a">
       <view class="catalog-aa">评论</view>
-      <view class="catalog-ab">215 条评论</view>
+      <view class="catalog-ab" bindtap="pinglun">215 条评论</view>
     </view>
     <view class="catalog-b">
       <image src="../img/填写.png"></image>
@@ -73,6 +75,7 @@
 
     </view>
   </view>
+
 
   <view class="sj">
     <view class="sj-a">12-04 21:20</view>
@@ -92,3 +95,14 @@
 
 
 </view>
+
+
+
+<view class="asd" hidden="{{ floag }}">
+  <view class="asd-a">
+    <image src="../img/threeti.jpg"></image>
+  </view>
+  <view class="asd-b">已经将这本书加入到书架</view>
+  <view class="asd-c" bindtap="goodhao">好的</view>
+</view>
+

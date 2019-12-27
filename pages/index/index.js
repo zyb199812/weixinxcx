@@ -7,7 +7,7 @@ Page({
     list: [{}],
     redd:[{}],
     length: 4,
-
+    lujing:[''],
     stss: [{
         "st": "/pages/img/011.jpg",
         'nname': '三体',
@@ -21,11 +21,10 @@ Page({
         'text': '小刘欣创作的长篇科幻小说地球的三部曲，第三部'
       }
     ]
-
-
   },
   //事件处理函数
 
+  // 动态获取获取图像----1,在data里面设置空的数组对象list[{}]---2,WXML里使用插值表达式
   onLoad: function() {
     wx: wx.request({
       url: 'https://wujunhui.xyz/getfenleilist',
@@ -35,7 +34,7 @@ Page({
         })
       }
     })
-
+    // 动态获取内容
     wx: wx.request({
       url: 'https://wujunhui.xyz/getwriters',
       success: (res) => {
@@ -50,7 +49,13 @@ Page({
       url: '../santidetails/santidetails',
     })
   },
+  ckqb:function(eve){
+    wx.navigateTo({
+      url: '../hgauthor/hgauthor',
+    })
+  },
   kehuan:function(eve){
+    console.log(eve)
     wx:wx.navigateTo({
       url: '../science/science',
       success: function(res) {},

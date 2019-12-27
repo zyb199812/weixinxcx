@@ -1,0 +1,74 @@
+<!--pages/comment/comment.wxml-->
+
+<view>
+  <view class="plhead">评论</view>
+
+  <view class="pinglun">
+    <view class="pinglun-a">
+      <image src="../img/ft4.jpg"></image>
+    </view>
+    <view class="pinglun-b">
+      <view class="pinglun-ba">鱼毛毛</view>
+      <view class="pinglun-bb">君子曰：学不可以已。青，取之于蓝，而青于蓝；冰，水为之，而寒于水。木直中绳，輮以为轮，其曲中规。虽有槁暴，不复挺者，輮使之然也。故木受绳则直，金就砺则利，君子博学而日参省乎己，则知明而行无过矣。</view>
+
+    </view>
+  </view>
+  <view class="sj">
+    <view class="sj-a">12-04 21:20</view>
+    <view class="sj-b">
+      <view class="sj-ba">❤ 134</view>
+      <view class="sj-bb">
+        <image src="../img/消息.png"></image>
+        89
+      </view>
+    </view>
+  </view>
+
+
+
+
+ <view class="pinglun">
+    <view class="pinglun-a">
+      <image src="../img/ft3.jpg"></image>
+    </view>
+    <view class="pinglun-b">
+      <view class="pinglun-ba">小甜甜</view>
+      <view class="pinglun-bb">木直中绳，輮以为轮，其曲中规。虽有槁暴，不复挺者，輮使之然也。故木受绳则直，金就砺则利，君子博学而日参省乎己，则知明而行无过矣。</view>
+
+    </view>
+  </view>
+  <view class="sj">
+    <view class="sj-a">12-04 21:20</view>
+    <view class="sj-b">
+      <view class="sj-ba">❤ 134</view>
+      <view class="sj-bb">
+        <image src="../img/消息.png"></image>
+        89
+      </view>
+    </view>
+  </view>
+
+
+
+   <view class="pinglun">
+    <view class="pinglun-a">
+      <image src="../img/ft5.jpg"></image>
+    </view>
+    <view class="pinglun-b">
+      <view class="pinglun-ba">毛毛雨</view>
+      <view class="pinglun-bb">君子曰：学不可以已。青，取之于蓝，而青于蓝；冰，水为之，而寒于水。木直中绳，輮以为轮，其曲中规。虽有槁暴，不复挺者，輮使之然也。故木受绳则直，金就砺则利，君子博学而日参省乎己，则知明而行无过矣。</view>
+
+    </view>
+  </view>
+  <view class="sj">
+    <view class="sj-a">12-04 21:20</view>
+    <view class="sj-b">
+      <view class="sj-ba">❤ 134</view>
+      <view class="sj-bb">
+        <image src="../img/消息.png"></image>
+        89
+      </view>
+    </view>
+  </view>
+
+</view>
